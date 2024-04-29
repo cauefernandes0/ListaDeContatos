@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.labelnome = new System.Windows.Forms.Label();
             this.labelsobrenome = new System.Windows.Forms.Label();
             this.textBoxSobrenome = new System.Windows.Forms.TextBox();
@@ -123,8 +124,9 @@
             this.Controls.Add(this.textBoxSobrenome);
             this.Controls.Add(this.labelsobrenome);
             this.Controls.Add(this.labelnome);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Lista de Contatos";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
