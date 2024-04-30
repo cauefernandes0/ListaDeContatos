@@ -37,6 +37,7 @@
             this.labeltelefone = new System.Windows.Forms.Label();
             this.ListBoxContatos = new System.Windows.Forms.ListBox();
             this.buttonIncluirContato = new System.Windows.Forms.Button();
+            this.buttonOrganiza = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelnome
@@ -105,17 +106,28 @@
             // 
             this.buttonIncluirContato.Location = new System.Drawing.Point(43, 298);
             this.buttonIncluirContato.Name = "buttonIncluirContato";
-            this.buttonIncluirContato.Size = new System.Drawing.Size(345, 140);
+            this.buttonIncluirContato.Size = new System.Drawing.Size(191, 140);
             this.buttonIncluirContato.TabIndex = 10;
             this.buttonIncluirContato.Text = "Incluir Contato";
             this.buttonIncluirContato.UseVisualStyleBackColor = true;
             this.buttonIncluirContato.Click += new System.EventHandler(this.buttonIncluirContato_Click);
+            // 
+            // buttonOrganiza
+            // 
+            this.buttonOrganiza.Location = new System.Drawing.Point(240, 298);
+            this.buttonOrganiza.Name = "buttonOrganiza";
+            this.buttonOrganiza.Size = new System.Drawing.Size(191, 140);
+            this.buttonOrganiza.TabIndex = 11;
+            this.buttonOrganiza.Text = "Organizar";
+            this.buttonOrganiza.UseVisualStyleBackColor = true;
+            this.buttonOrganiza.Click += new System.EventHandler(this.buttonOrganiza_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonOrganiza);
             this.Controls.Add(this.buttonIncluirContato);
             this.Controls.Add(this.ListBoxContatos);
             this.Controls.Add(this.labeltelefone);
@@ -143,6 +155,7 @@
         private System.Windows.Forms.Label labeltelefone;
         private System.Windows.Forms.ListBox ListBoxContatos;
         private System.Windows.Forms.Button buttonIncluirContato;
+        private System.Windows.Forms.Button buttonOrganiza;
     }
 }
 

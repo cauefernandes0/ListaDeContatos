@@ -57,12 +57,12 @@ namespace ListaDeContatos
         //Sobrescreve o método ToString()
         public override string ToString()
         {
-           string saida = string.Empty;
-           saida += String.Format("{0}, {1}", Nome, Sobrenome);
-           saida += String.Format("({0}) {1}-{2}", 
-               Telefone.Substring(0,2), 
-               Telefone.Substring(2,5),
-               Telefone.Substring(7,4));
+            string saida = string.Empty;
+            saida += String.Format("{0}, {1}", Nome, Sobrenome);
+            saida += String.Format("({0}) {1}-{2}",
+                Telefone.Substring(0,2),
+                Telefone.Substring(2,5),
+                Telefone.Substring(7,4));
             return saida;
         }
     }
